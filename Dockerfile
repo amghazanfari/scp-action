@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM docker.arvancloud.ir/ubuntu:latest
 
 RUN apt-get update && apt-get install -y sshpass openssh-client
 
